@@ -5,8 +5,12 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+<<<<<<< Updated upstream
     "autoprefixer": "^10.2.6",
     "gatsby": "^3.4.1",
+=======
+    "gatsby": "^3.6.1",
+>>>>>>> Stashed changes
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
