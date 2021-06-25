@@ -4,7 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Subscribe from "../components/subscribe"
+import About from "../components/about"
 import Seo from "../components/seo"
+import "tailwindcss/tailwind.css"
 
 const IndexPage = () => (
   <Layout>
@@ -26,12 +28,10 @@ const IndexPage = () => (
         <h3 className="highlight">#modern</h3><h3>feel</h3>
       </div>
     </section>
-    
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-    </p>
 
+    <About/>
     <Subscribe/>
+
 
   </Layout>
 )

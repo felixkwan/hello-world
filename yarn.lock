@@ -5910,6 +5910,14 @@ gatsby-plugin-page-creator@^3.7.0:
     globby "^11.0.3"
     lodash "^4.17.21"
 
+gatsby-plugin-postcss@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-4.8.0.tgz#51a0cb7670cea017ae3f7440fba4b861ea761aa6"
+  integrity sha512-F3N3DEwGIC4AphKC1N/R8MGDJsXicjNthito6LCbs63b14U6JwKMnNmexmob25EBh2HFJETe0WiJBgVErUCdag==
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    postcss-loader "^4.3.0"
+
 gatsby-plugin-react-helmet@^4.6.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-4.7.0.tgz#eff483612507a6d481415ba5af94e7e6bb5db89e"
@@ -6648,6 +6656,11 @@ graphql@^15.4.0:
   version "15.5.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.5.0.tgz#39d19494dbe69d1ea719915b578bf920344a69d5"
   integrity sha512-OmaM7y0kaK31NKG31q4YbD2beNYa6jBBKtMFT6gLYJljHLJr42IqJ8KX08u3Li/0ifzTU5HjmoOOrwa5BRLeDA==
+
+gsap@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.7.0.tgz#ebadf467898ddf25011030090f0399cb0e292309"
+  integrity sha512-8JI7pcFj0pgMzwqChARiHf7EIIZp1QrQBP74M2p2NpQLiAeIhQsrJWIRiwmA2JWkkNe0I2BiQF5ZhJvpyJVJDA==
 
 gzip-size@5.1.1:
   version "5.1.1"
@@ -9876,6 +9889,17 @@ postcss-js@^3.0.3:
     camelcase-css "^2.0.1"
     postcss "^8.1.6"
 
+postcss-loader@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-4.3.0.tgz#2c4de9657cd4f07af5ab42bd60a673004da1b8cc"
+  integrity sha512-M/dSoIiNDOo8Rk0mUqoj4kpGq91gcxCfb9PoyZVdZ76/AuhxylHDYZblNE8o+EQ9AMSASeMFEKxZf5aU6wlx1Q==
+  dependencies:
+    cosmiconfig "^7.0.0"
+    klona "^2.0.4"
+    loader-utils "^2.0.0"
+    schema-utils "^3.0.0"
+    semver "^7.3.4"
+
 postcss-loader@^5.0.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-5.3.0.tgz#1657f869e48d4fdb018a40771c235e499ee26244"
@@ -10132,6 +10156,15 @@ postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.15, postcss@^8.2.9:
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.1.tgz#71f380151c227f83b898294a46481f689f86b70a"
   integrity sha512-9qH0MGjsSm+fjxOi3GnwViL1otfi7qkj+l/WX5gcRGmZNGsIcqc+A5fBkE6PUobEQK4APqYVaES+B3Uti98TCw==
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
+
+postcss@^8.3.5:
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
+  integrity sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
