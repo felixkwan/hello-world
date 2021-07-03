@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-const Heading = () => {
+const Heading = () => (
   <div>
       <section className="heading">
       <div className="staggerLinges">
@@ -21,6 +21,6 @@ const Heading = () => {
       </div>
     </section>
   </div>
-}
+)
 
 export default Heading
