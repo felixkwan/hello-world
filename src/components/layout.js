@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet title="foo bar" defer={false}>
-        <link href="https://api.fontshare.com/css?f[]=clash-display@300,500&display=swap" rel="stylesheet"/>
       </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div

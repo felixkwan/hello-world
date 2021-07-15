@@ -2,20 +2,22 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const About = () => (
-    <section className="heading">
+    <section className="about">
       <div className="about-wrap">
-        <div className="container mx-auto flex flex-col">
-            <button>
-                <Link>submit</Link>
-            </button>
-           <div className="staggerLines">
-               <h2>Subscribe</h2>
+        <div className="container flex flex-col">
+           <div className="container title staggerLines pb-5 mb-4">
+               <h3 className="uppercase">know</h3>
+               <h3 className="uppercase">about</h3>
+               <h3 className="uppercase">us</h3>
            </div>
            <div className="staggerLines">
-               <h2>to Newsletter</h2>
-           </div>
-           <div className="slideInLeft input-area">
-                <input type="email" id="email" name="email" placeholder="email"></input>
+               <div className="row">
+                    <h2>We're design</h2>
+               </div>
+               <div className="row">
+                    <h2>brand</h2>
+                    <h2>focused</h2>
+               </div>
            </div>
         </div>
       </div>

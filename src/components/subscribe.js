@@ -5,8 +5,8 @@ const Subscribe = () => (
     <section className="heading">
       <div className="subscribe-wrap">
         <div className="container padding-narrow">
-            <button>
-                <Link>submit</Link>
+            <button className="btn-oval">
+                submit
             </button>
            <div className="staggerLines">
                <h2>Subscribe</h2>
