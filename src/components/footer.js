@@ -17,10 +17,10 @@ const Footer = () => (
                 </div>    
                 <div className="footer-bottom">
                     <div className="flex-box">
-                        <div className="align-center">
+                        <div className="text-center">
                             <h6 className="medium">© {new Date().getFullYear()}</h6>
                         </div>
-                        <div className="align-right">
+                        <div className="text-right">
                             <h6>Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a></h6>

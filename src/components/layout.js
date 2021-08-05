@@ -28,6 +28,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet title="foo bar" defer={false}>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"/>
       </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
